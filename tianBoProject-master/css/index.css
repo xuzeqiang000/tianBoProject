@@ -1,0 +1,179 @@
+.swiperDiv{
+	width: 100%;
+	height: 2.25rem;
+}
+.swiperDiv img{
+	width: 100%;
+	height: 2.25rem;
+}
+.notice{
+	width: 100%;
+	height: 0.25rem;
+	background: #252932;
+}
+.notice .noticeLogo{
+	width: 0.4rem;
+	height: 0.25rem;
+	background: #f35a4a;
+}
+.notice .noticeLogo i{
+	display: block;
+	width: 0.4rem;
+	height: 0.25rem;
+	background: url(../images/svg/notice_icon.svg)no-repeat;
+	background-size: 50%;
+	background-position: 50% 50%;
+}
+.notiveText{
+	font-size: 0.12rem;
+    color: #fff;
+    width: 3rem;
+    position: relative;
+    top: -0.31rem;
+    left: 0.5rem;
+}
+.navDiv{
+	width: 100%;
+	height: 0.42rem;
+	display: table;
+	font-size: 0.12rem;
+	color: #898989;
+}
+.navDiv .navList{
+	display: table-cell;
+	text-align: center;
+	padding-top: 0.05rem;
+}
+.navList div{
+	width: 0.26rem;
+    height: 0.20rem;
+    margin: 0 auto;
+    font-size: 0.12rem;
+}
+.navList .zchy{
+	background: url(../images/svg/nav_register_icon.svg)no-repeat;
+}
+.navList .ljdl{
+	background: url(../images/svg/nav_user_icon.svg)no-repeat;
+}
+.navList .yhhd{
+	background: url(../images/svg/nav_gift_icon.svg)no-repeat;
+}
+.navList .zxkf{
+	background: url(../images/svg/nav_service_icon.svg)no-repeat;
+}
+
+.blank{
+	width: 100%;
+    height: 0.15rem;
+    background-color: #f2f2f2;
+}
+.gameBtnDiv{
+	width: 100%;
+	height: 0.9rem;
+}
+.gameBtnDiv p{
+	display: block;
+    width: 0.9rem;
+    height: 0.4rem;
+    margin: 0 auto;
+    background: url(../images/text_game.png) no-repeat;
+    background-size: 100%;
+    top: 0.25rem;
+    position: relative;
+}
+
+.gameListDiv{
+	width: 100%;
+	height: 4.25rem;
+	background: url(../images/line_01.png)no-repeat;
+	background-size: 100%;
+}
+.line1,.line2{
+	display:table;
+	font-size: 12px;
+	color: #898989;
+	width: 100%;
+	height: 1.2rem;
+	position: relative;
+	top: 0.4rem;
+}
+.line1 .gameCell{
+	display: table-cell;
+	text-align: center;
+}
+.line2 .gameCell{
+	display: table-cell;
+	text-align: center;
+}
+.gameListDiv .gameCell div{
+	width: 0.76rem;
+    height: 0.76rem;
+    margin: 0 auto;
+    border: 1px solid #dfdfdf;
+    border-radius: 100rem;
+    margin-top: 0.1rem;
+	margin-bottom: 0.1rem;
+}
+.gameListDiv .navEA{background: url(../images/svg/ea_icon.svg) no-repeat;background-size: 100%;}
+.gameListDiv .navAG{background: url(../images/svg/ag_icon.svg) no-repeat;background-size: 100%;}
+.gameListDiv .navTY{background: url(../images/svg/sports_icon.svg) no-repeat;background-size: 100%;}
+.gameListDiv .navLB{background: url(../images/svg/lb_icon.svg) no-repeat;background-size: 100%;}
+.gameListDiv .navBE{background: url(../images/svg/ebet_icon.svg) no-repeat;background-size: 100%;}
+.gameListDiv .navPT{background: url(../images/svg/pt.svg) no-repeat;background-size: 100%;}
+
+.bottom{
+	width: 100%;
+	height: 1.8rem;
+}
+.bottom .b_logo_div{
+	width: 1.7rem;
+	height: 0.4rem;
+	margin: 0 auto;
+	display: table;
+	margin-bottom: 0.2rem;
+	margin-top: 0.2rem;
+}
+.bottom .b_logo_div div{
+	display: table-cell;
+	height: 0.34rem;
+}
+.bottom .b_logo_div .b_left{
+	background: url(../images/zx_logo.png) no-repeat;background-size: 60%;    background-position-x: 50%;
+}
+.bottom .b_logo_div .b_center{
+	background: url(../images/gicc_logo.png) no-repeat;background-size: 60%;    background-position-x: 50%;
+}
+.bottom .b_logo_div .b_right{
+	background: url(../images/18_logo.png) no-repeat;background-size: 60%;    background-position-x: 50%;
+}
+.bottom p{
+	text-align: center;
+	font-size: 0.10rem;
+	color: #434343;
+}
+.pcorphone{
+	width: 1.3rem;
+    height: 0.2rem;
+    margin: 0 auto;
+    font-size: 0.14rem;
+    line-height: 0.4rem;
+}
+.pcorphone span{
+	width: 49%;
+    height: 0.2rem;
+    display: block;
+    text-align: center;
+    float: left;
+    line-height: 0.2rem;
+}
+.pcorphone .pc{
+    color: #404040;
+	border-right: 0.01rem solid #404040;
+}
+.pcorphone .ph{
+    color: #c9c9c9;
+}
+.bottom .jianzhi{
+	color: #c9c9c9;	
+}

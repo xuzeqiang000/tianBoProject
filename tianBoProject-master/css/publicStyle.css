@@ -7,6 +7,7 @@ ol,ul,li{list-style-type:none;}
 	position: absolute;
 	top:0;
 	left: 0;
+	background: #f2f2f2;
 }
 li {
 	display: list-item;
@@ -18,7 +19,9 @@ li {
 .text-color-white{
 	color: #ffffff;
 }
-
+.mt30{
+	margin-top: 30px !important;
+}
 
 
 body{

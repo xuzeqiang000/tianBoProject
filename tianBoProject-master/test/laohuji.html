@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+    <title>首页</title>
+</head>
+<!--公共样式都写在  publicStyle.css 里面-->
+<link rel="stylesheet" href="../css/publicStyle.css" />
+
+<link rel="stylesheet" href="../css/index.css" />
+<script>
+    new function () {
+        var _self = this;
+        _self.width = 375;//设置默认最大宽度 iphone6
+        _self.fontSize = 100;//默认字体大小
+        _self.widthProportion = function () { var p = (document.body && document.body.clientWidth || document.getElementsByTagName("html")[0].offsetWidth) / _self.width; return p < 0.5 ? 0.5 : p; };
+        _self.changePage = function () {
+            document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + _self.widthProportion() * _self.fontSize + "px !important");
+        }
+        _self.changePage();
+        window.addEventListener("resize", function () { _self.changePage(); }, false);
+    };
+</script>
+<body>
+<div class="content">
+    <header>
+        <div class="h-left">
+            <div style="background: url(../images/svg/back_icon.svg) no-repeat;background-size: 100%;"></div>
+        </div>
+        <div class="h-center">
+            <span class="text-color-white">PT老虎机</span>
+        </div>
+    </header>
+<div class="pageContent">
+    <div class="selectDiv">
+        <div class="selectBtn">
+            全部活动
+            <i></i>
+        </div>
+    </div>
+
+    <div id="now" class="show mt30" >
+        <div class="ptgamebox">
+            <p>
+                <img src="../images/bob.jpg" style="border: 0" data-url="../images/bob.jpg"></p>
+            <span>熊之舞</span>
+            <input type="hidden" value="bob"></div>
+        <div class="ptgamebox">
+            <p>
+                <img src="../images/ges.jpg" style="border: 0" data-url="../images/ges.jpg"></p>
+            <span>艺伎故事</span>
+            <input type="hidden" value="ges"></div>
+        <div class="ptgamebox">
+            <p><img src="../images/bib.jpg" style="border: 0" data-url="../images/bib.jpg"></p>
+            <span>湛蓝深海</span>
+            <input type="hidden" value="bib"></div>
+        <div class="ptgamebox">
+            <p><img src="../images/spidc.jpg" style="border: 0" data-url="../images/spidc.jpg"></p>
+            <span>蜘蛛侠：绿妖精的攻击</span>
+            <input type="hidden" value="spidc"></div>
+        <div class="ptgamebox"><p><img src="../images/hlk2.jpg" style="border: 0" data-url="../images/hlk2.jpg"></p>
+            <span>绿巨人</span>
+            <input type="hidden" value="hlk2"></div>
+        <div class="ptgamebox"><p><img src="../images/zcjb.jpg" style="border: 0" data-url="../images/zcjb.jpg"></p>
+            <span>招财进宝</span><input type="hidden" value="zcjb"></div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+</body>
+</html>

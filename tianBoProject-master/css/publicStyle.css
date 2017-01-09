@@ -1,29 +1,9 @@
-@charset "UTF-8";
-body{font: 16px 'Helvetica',tahoma,'\5b8b\4f53',sans-serif; text-align:center;width:100%;height:100%;}
-ol,ul,li{list-style-type:none;}
-.content{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top:0;
-    left: 0;
-}
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-}
-.bg-color-white{
-    background-color: #ffffff;
-}
-.text-color-white{
-    color: #ffffff;
-}
-
-
 body{
 	margin: 0;
 	padding: 0;
 }
+
+/*头部*/
 header {
     width: 100%;
     height: 0.6rem;
@@ -79,3 +59,61 @@ header .h-center div{
 	top: 0.6rem;
 }
 
+
+
+/*底部*/
+.bottom{
+	width: 100%;
+	height: 1.8rem;
+}
+.bottom .b_logo_div{
+	width: 1.7rem;
+	height: 0.4rem;
+	margin: 0 auto;
+	display: table;
+	margin-bottom: 0.2rem;
+	margin-top: 0.2rem;
+}
+.bottom .b_logo_div div{
+	display: table-cell;
+	height: 0.34rem;
+}
+.bottom .b_logo_div .b_left{
+	background: url(../images/zx_logo.png) no-repeat;background-size: 60%;    background-position-x: 50%;
+}
+.bottom .b_logo_div .b_center{
+	background: url(../images/gicc_logo.png) no-repeat;background-size: 60%;    background-position-x: 50%;
+}
+.bottom .b_logo_div .b_right{
+	background: url(../images/18_logo.png) no-repeat;background-size: 60%;    background-position-x: 50%;
+}
+.bottom p{
+	text-align: center;
+	font-size: 0.10rem;
+	color: #434343;
+}
+.pcorphone{
+	width: 1.3rem;
+    height: 0.2rem;
+    margin: 0 auto;
+    font-size: 0.14rem;
+    line-height: 0.4rem;
+}
+.pcorphone span{
+	width: 49%;
+    height: 0.2rem;
+    display: block;
+    text-align: center;
+    float: left;
+    line-height: 0.2rem;
+}
+.pcorphone .pc{
+    color: #404040;
+	border-right: 0.01rem solid #404040;
+}
+.pcorphone .ph{
+    color: #c9c9c9;
+}
+.bottom .jianzhi{
+	color: #c9c9c9;	
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+    <title>首页</title>
+</head>
+<!--公共样式都写在  publicStyle.css 里面-->
+<link rel="stylesheet" href="../css/publicStyle.css" />
+
+<link rel="stylesheet" href="../css/index.css" />
+<script>
+    new function () {
+        var _self = this;
+        _self.width = 375;//设置默认最大宽度 iphone6
+        _self.fontSize = 100;//默认字体大小
+        _self.widthProportion = function () { var p = (document.body && document.body.clientWidth || document.getElementsByTagName("html")[0].offsetWidth) / _self.width; return p < 0.5 ? 0.5 : p; };
+        _self.changePage = function () {
+            document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + _self.widthProportion() * _self.fontSize + "px !important");
+        }
+        _self.changePage();
+        window.addEventListener("resize", function () { _self.changePage(); }, false);
+    };
+</script>
+<body>
+<div class="content bg-color-white">
+    <header>
+        <div class="h-left">
+            <div style="background: url(../images/svg/back_icon.svg) no-repeat;background-size: 100%;"></div>
+        </div>
+        <div class="h-center">
+            <span class="text-color-white">赏金猎人，万元彩金一发即中！</span>
+        </div>
+    </header>
+    <div class="pageContent">
+        <div class="pimage">
+            <img src="../images/prozjlr.jpg">
+        </div>
+
+        <div class="ptext_title">详细内容</div>
+
+        <div class="pmain_text">
+            <li>活动规则：<br></li><li>1. 两种参与方式：</li><li>1) 现金“10元”区；</li><li>2) 淘金币“200”区；</li><li>2. 每位会员选择至少一个抽奖号码（000—999）；</li><li>3. 已被选中的号码不能重复选择；</li><li>4. 每选择一个号码系统自动扣除账户10元余额或200淘金币；</li><li>活动周期：</li><li>每天开奖，每晚8点封盘，封盘后将无法进行选号，直到开奖结束后方可继续选</li><li>奖励规则：</li><li>选择的抽奖号码与当期活动封盘后第二天的福彩3D开奖号码完全相同，即可获得10,000元奖金；</li><li><span style="text-align: justify;">活动条款：</span></li><li>1. 绑定手机+绑定邮箱成功后的所有会员都可以参与，无需报名；</li><li>2. 每期一共1000个号码，每位会员不限制参与次数；</li><li>3. 中奖彩金奖励由系统自动派发，无需申请。彩金奖励只需投注一倍流水即可提款；</li><li>4. 本活动每位会员仅能使用同一众鑫游戏帐户参与，如有发现使用多账户参加此优惠活动，将永久冻结所有游戏账户且没收所有所得奖金及奖品。    *注：同一注册IP、姓名、电话号码、QQ和邮箱将视为同一游戏账户；</li><li>5. 活动截止日期以官网公布为准；</li><li>6. 参与本活动的会员则视为同意本活动条款；</li><li>7. 如存在文字上的理解差异，本活动众鑫娱乐拥有最终解释权。</li>
+        </div>
+
+        <div class="pback">
+            <div class="pback_btn">关闭</div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+    <title>首页</title>
+</head>
+<!--公共样式都写在  publicStyle.css 里面-->
+<link rel="stylesheet" href="../css/publicStyle.css" />
+
+<link rel="stylesheet" href="../css/index.css" />
+<script>
+    new function () {
+        var _self = this;
+        _self.width = 375;//设置默认最大宽度 iphone6
+        _self.fontSize = 100;//默认字体大小
+        _self.widthProportion = function () { var p = (document.body && document.body.clientWidth || document.getElementsByTagName("html")[0].offsetWidth) / _self.width; return p < 0.5 ? 0.5 : p; };
+        _self.changePage = function () {
+            document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + _self.widthProportion() * _self.fontSize + "px !important");
+        }
+        _self.changePage();
+        window.addEventListener("resize", function () { _self.changePage(); }, false);
+    };
+</script>
+<body>
+<div class="content bg-color-white">
+    <header>
+        <div class="h-left">
+            <div style="background: url(../images/svg/back_icon.svg) no-repeat;background-size: 100%;"></div>
+        </div>
+        <div class="h-center">
+            <span class="text-color-white">资金管理</span>
+        </div>
+    </header>
+    <div class="pageContent">
+        <div class="actmain">
+            <div class="actuesr_icon"></div>
+            <div class="act_usname">
+                <ul>
+                    <li>下午好：huhude001</li>
+                </ul>
+            </div>
+            <div class="act_profile">
+                <ul>
+                    <li class="threepage" url="member.aspx"><a>会员中心</a>修改资料</li>
+                </ul>
+            </div>
+            <div class="act_balance">
+                <div class="act_number">
+                    <ul>
+                        <li>账户余额</li>
+                        <li style="font-weight: bold;">0.00</li>
+                    </ul>
+                </div>
+                <div class="act_number">
+                    <ul>
+                        <li>淘金币余额</li>
+                        <li style="font-weight: bold;">0</li>
+                    </ul>
+                </div>
+                <div class="act_otr" id="baemenu">
+                    <ul>
+                        <li>游戏余额</li>
+                        <li>点击查询</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <table class="act_menu bg-color-white" border="1px" bordercolor="#e5e5e5" cellspacing="0px">
+            <tbody>
+            <tr>
+                <td id="czxx" class="threepage" url="/account/deposit.aspx">
+                    <li class="accdeposit_icon"></li>
+                    <a>充值</a></td>
+                <td id="tkxx" class="threepage" url="/account/withdrawal.aspx">
+                    <li class="accqukuan_icon"></li>
+                    <a>提款</a></td>
+                <td id="zzxx" class="threepage" url="/account/transfer.aspx">
+                    <li class="acctransfer_icon"></li>
+                    <a>转账</a></td>
+                <td id="jlxx" class="threepage" url="/account/record.aspx">
+                    <li class="accrecord_icon"></li>
+                    <a>交易记录</a></td>
+            </tr>
+            <tr>
+                <td id="yhkxx" class="threepage" url="/account/bank_card.aspx">
+                    <li class="accbank_icon"></li>
+                    <a>银行卡</a></td>
+                <td id="shopxx" class="threepage" url="/account/shop_record.aspx">
+                    <li class="accshop_record_icon"></li>
+                    <a>商城记录</a></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div class="blank"></div>
+
+        <!--公共模块 --低部-->
+        <div class="bottom bg-color-white">
+            <div class="b_logo_div bg-color-white">
+                <div class="b_left"></div>
+                <div class="b_center"></div>
+                <div class="b_right"></div>
+            </div>
+
+            <p>众鑫娱乐由菲律宾牌照委员会GICC颁发合法执照</p>
+            <p>在进行注册前，请确保您已年满18周岁并遵循当地法律法规</p>
+            <div class="pcorphone">
+                <span class="pc">电脑版</span>
+                <span class="ph">手机版</span>
+            </div>
+            <p class="jianzhi">© 2013-2022 www.zxcbet.com All Rights Reserved</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

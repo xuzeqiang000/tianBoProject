@@ -1,6 +1,15 @@
 @charset "UTF-8";
 body{font: 16px 'Helvetica',tahoma,'\5b8b\4f53',sans-serif; text-align:center;width:100%;height:100%;}
 ol,ul,li{list-style-type:none;}
+ul, menu, dir {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+}
 .content{
 	height: 100%;
 	width: 100%;
@@ -141,5 +150,5 @@ header .h-center div{
     color: #c9c9c9;
 }
 .bottom .jianzhi{
-	color: #c9c9c9;	
+	color: #c9c9c9;
 }

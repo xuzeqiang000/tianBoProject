@@ -217,3 +217,173 @@ img {
 	line-height: 30px;
 	font-size: 12px;
 }
+table.act_menu {
+	width: 100%;
+	height: 200px;
+	border-collapse: collapse;
+}
+table.act_menu td {
+	width: 25%;
+	height: 100px;
+	text-align: center;
+	font-size: 14px;
+	color: #959595;
+}
+table.act_menu td li {
+	width: 35px;
+	height: 25px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+	font-family: "arial" "Microsoft YaHei";
+}
+.accdeposit_icon {
+	background: url(../images/svg/money_icon.svg) no-repeat;
+}
+.accqukuan_icon {
+	background: url(../images/svg/qukuan.svg) no-repeat;
+}
+.acctransfer_icon {
+	background: url(../images/svg/transfer_icon.svg) no-repeat;
+}
+.accrecord_icon {
+	background: url(../images/svg/record_icon.svg) no-repeat;
+}
+.accbank_icon {
+	background: url(../images/svg/bank_icon.svg) no-repeat;
+}
+.accshop_record_icon {
+	background: url(../images/svg/shop_record_icon.svg) no-repeat;
+}
+.actmain {
+	width: 100%;
+	height: 208px;
+	background: url(../images/account_bg.jpg);
+	background-size: 100% 100%;
+	padding-top: 32px;
+}
+.actuesr_icon {
+	width: 80px;
+	height: 80px;
+	background: url(../images/svg/user_icon.svg) no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+}
+.act_usname, .act_usname ul li {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	color: #FFF;
+	font-size: 17px;
+	text-align: center;
+	font-weight: bold;
+}
+.act_usname, .act_usname ul li {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	color: #FFF;
+	font-size: 17px;
+	text-align: center;
+	font-weight: bold;
+}
+.act_profile ul li {
+	height: 32px;
+	line-height: 32px;
+	color: #FFF;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 20px;
+}
+.act_profile a {
+	display: none;
+}
+.act_balance {
+	width: 100%;
+	height: 49px;
+	padding-top: 16px;
+	border-top: 1px solid #ad6277;
+}
+.act_balance .act_number {
+	width: 35%;
+	height: 32px;
+	float: left;
+	border-right: 1px solid #ad6277;
+}
+.act_balance .act_number ul li {
+	height: 16px;
+	color: #FFF;
+	font-size: 12px;
+	margin-left: 20px;
+	text-align: left;
+}
+.act_balance .act_number {
+	width: 35%;
+	height: 32px;
+	float: left;
+	border-right: 1px solid #ad6277;
+}
+.act_balance .act_otr {
+	width: 26%;
+	height: 32px;
+	float: left;
+}
+.act_balance .act_otr ul li {
+	height: 16px;
+	color: #FFF;
+	font-size: 12px;
+	text-align: center;
+}
+.pimage {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.ptext_title {
+	width: 90%;
+	height: 22px;
+	padding-top: 10px;
+	font-size: 14px;
+	margin: 0 auto;
+	color: #313131;
+	border-bottom: 1px solid #dcdcdc;
+	text-align: left;
+}
+.pmain_text {
+	width: 90%;
+	height: auto;
+	font-size: 14px;
+	padding-top: 1%;
+	margin: 0 auto;
+	text-align: left;
+}
+.pmain_text li {
+	width: 100%;
+	line-height: 18px;
+	padding-top: 8px;
+	font-size: 14px;
+	color: #313131;
+	font-weight: bold;
+	text-align: left;
+}
+.pback {
+	width: 100%;
+	height: 0;
+	padding-bottom: 20%;
+	padding-top: 10%;
+	margin: 0 auto;
+}
+.pback .pback_btn {
+	width: 40%;
+	line-height: 40px;
+	background: #323436;
+	margin: 0 auto;
+	font-size: 17px;
+	border-radius: 3px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+}

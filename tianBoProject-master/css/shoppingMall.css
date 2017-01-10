@@ -1,0 +1,31 @@
+header .h-left a{
+    background: url(../images/svg/back_icon.svg) no-repeat;
+    background-size: 100%;
+}
+header .h-center div{
+	background: none;
+	text-align: center;
+    line-height: 0.4rem;
+}
+header .h-right div {
+	background: none;
+}
+header .h-center{
+	color:#fff;
+	font-size: 0.17rem;
+}
+
+
+
+.shoppingContent{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	background-color:#fff ;
+	position: relative;
+    top: 0.3rem;
+}
+.shoppingContent span{
+	font-size: 0.12rem;
+	line-height: 1.2rem;
+}

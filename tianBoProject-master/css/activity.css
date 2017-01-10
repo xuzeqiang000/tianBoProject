@@ -1,4 +1,4 @@
-header .h-left div {
+header .h-left a {
     background: url(../images/svg/back_icon.svg) no-repeat;
     background-size: 100%;
 }
@@ -92,18 +92,17 @@ header .h-center{
 .activityBox .activityList .imgDiv img{
 	    width: 100%;
 	    position: relative;
-    top: -0.25rem;
 }
 .activityBox .activityList .timeDiv{
 	width: 100%;
     height: 0.3rem;
         position: relative;
-    top: -0.14rem;
+    top: -0.09rem;
     line-height: 0.3rem;
 }
 
 .time_left{
-	    color: #7d7d7d;    font-size: 12px;
+	    color: #7d7d7d;    font-size: 12px; text-align: left;
 }
 .time_right{
 	     color: #7d7d7d;
@@ -120,7 +119,9 @@ header .h-center{
     left: 0.2rem;
 }
 
-
+.b_logo_div{
+	left: 0.55rem;
+}
 
 
 

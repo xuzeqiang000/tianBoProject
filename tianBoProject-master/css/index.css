@@ -1,79 +1,99 @@
-.swiperDiv{
-	width: 100%;
-	height: 2.25rem;
+.swiperDiv {
+    width: 100%;
+    height: 2.25rem;
 }
-.swiperDiv img{
-	width: 100%;
-	height: 2.25rem;
+
+.swiperDiv img {
+    width: 100%;
+    height: 2.25rem;
 }
-.notice{
-	width: 100%;
-	height: 0.25rem;
-	background: #252932;
+
+.notice {
+    width: 100%;
+    height: 0.25rem;
+    background: #252932;
 }
-.notice .noticeLogo{
-	width: 0.4rem;
-	height: 0.25rem;
-	background: #f35a4a;
+
+.notice .noticeLogo {
+    width: 0.4rem;
+    height: 0.25rem;
+    background: #f35a4a;
 }
-.notice .noticeLogo i{
-	display: block;
-	width: 0.4rem;
-	height: 0.25rem;
-	background: url(../images/svg/notice_icon.svg)no-repeat;
-	background-size: 50%;
-	background-position: 50% 50%;
+
+.notice .noticeLogo i {
+    display: block;
+    width: 0.4rem;
+    height: 0.25rem;
+    background: url(../images/svg/notice_icon.svg) no-repeat;
+    background-size: 50%;
+    background-position: 50% 50%;
 }
-.notiveText{
-	font-size: 0.12rem;
+
+.notiveText {
+    font-size: 0.12rem;
     color: #fff;
     width: 3rem;
     position: relative;
     top: -0.31rem;
     left: 0.5rem;
 }
-.navDiv{
-	width: 100%;
-	height: 0.42rem;
-	display: table;
-	font-size: 0.12rem;
-	color: #898989;
+
+.navDiv {
+    width: 100%;
+    height: 0.42rem;
+    display: table;
+    font-size: 0.12rem;
+    color: #898989;
 }
-.navDiv .navList{
-	display: table-cell;
-	text-align: center;
-	padding-top: 0.05rem;
+
+.navDiv .navList {
+    display: table-cell;
+    text-align: center;
+    padding-top: 0.05rem;
 }
-.navList div{
-	width: 0.26rem;
+
+.navList a {
+    font-size: 0.12rem;
+    color: #898989;
+    text-decoration: none;
+}
+
+.navList div {
+    width: 0.26rem;
     height: 0.20rem;
     margin: 0 auto;
     font-size: 0.12rem;
 }
-.navList .zchy{
-	background: url(../images/svg/nav_register_icon.svg)no-repeat;
-}
-.navList .ljdl{
-	background: url(../images/svg/nav_user_icon.svg)no-repeat;
-}
-.navList .yhhd{
-	background: url(../images/svg/nav_gift_icon.svg)no-repeat;
-}
-.navList .zxkf{
-	background: url(../images/svg/nav_service_icon.svg)no-repeat;
+
+.navList .zchy {
+    background: url(../images/svg/nav_register_icon.svg) no-repeat;
 }
 
-.blank{
-	width: 100%;
+.navList .ljdl {
+    background: url(../images/svg/nav_user_icon.svg) no-repeat;
+}
+
+.navList .yhhd {
+    background: url(../images/svg/nav_gift_icon.svg) no-repeat;
+}
+
+.navList .zxkf {
+    background: url(../images/svg/nav_service_icon.svg) no-repeat;
+}
+
+.blank {
+    width: 100%;
     height: 0.15rem;
     background-color: #f2f2f2;
 }
-.gameBtnDiv{
-	width: 100%;
-	height: 0.9rem;
+
+.gameBtnDiv {
+    width: 100%;
+    height: 0.9rem;
 }
-.gameBtnDiv p{
-	display: block;
+
+.gameBtnDiv p {
+    display: block;
     width: 0.9rem;
     height: 0.4rem;
     margin: 0 auto;
@@ -83,307 +103,374 @@
     position: relative;
 }
 
-.gameListDiv{
-	width: 100%;
-	height: 4.25rem;
-	background: url(../images/line_01.png)no-repeat;
-	background-size: 100%;
+.gameListDiv {
+    width: 100%;
+    height: 4.25rem;
+    background: url(../images/line_01.png) no-repeat;
+    background-size: 100%;
 }
-.line1,.line2{
-	display:table;
-	font-size: 12px;
-	color: #898989;
-	width: 100%;
-	height: 1.2rem;
-	position: relative;
-	top: 0.4rem;
+
+.line1, .line2 {
+    display: table;
+    font-size: 12px;
+    color: #898989;
+    width: 100%;
+    height: 1.2rem;
+    position: relative;
+    top: 0.4rem;
 }
-.line1 .gameCell{
-	display: table-cell;
-	text-align: center;
+
+.line1 .gameCell {
+    display: table-cell;
+    text-align: center;
 }
-.line2 .gameCell{
-	display: table-cell;
-	text-align: center;
+
+.line2 .gameCell {
+    display: table-cell;
+    text-align: center;
 }
-.gameListDiv .gameCell div{
-	width: 0.76rem;
+
+.gameListDiv .gameCell div {
+    width: 0.76rem;
     height: 0.76rem;
     margin: 0 auto;
     border: 1px solid #dfdfdf;
     border-radius: 100rem;
     margin-top: 0.1rem;
-	margin-bottom: 0.1rem;
+    margin-bottom: 0.1rem;
 }
-.gameListDiv .navEA{background: url(../images/svg/ea_icon.svg) no-repeat;background-size: 100%;}
-.gameListDiv .navAG{background: url(../images/svg/ag_icon.svg) no-repeat;background-size: 100%;}
-.gameListDiv .navTY{background: url(../images/svg/sports_icon.svg) no-repeat;background-size: 100%;}
-.gameListDiv .navLB{background: url(../images/svg/lb_icon.svg) no-repeat;background-size: 100%;}
-.gameListDiv .navBE{background: url(../images/svg/ebet_icon.svg) no-repeat;background-size: 100%;}
-.gameListDiv .navPT{background: url(../images/svg/pt.svg) no-repeat;background-size: 100%;}
 
-.input{
-	width: 87%;
-	height: auto;
-	margin: 0 auto;
+.gameListDiv .navEA {
+    background: url(../images/svg/ea_icon.svg) no-repeat;
+    background-size: 100%;
 }
-.input_01{
-	width: 94%;
-	line-height: 20px;
-	height: 20px;
-	padding: 14px 3% 14px 3%;
-	margin: 7px auto;
-	font-size: 16px;
-	border-style: none;
-	border-radius: 2px;
-	border: 1px solid #CCC;
-	font-family: "arial" "Microsoft YaHei";
-	color: #484848;
+
+.gameListDiv .navAG {
+    background: url(../images/svg/ag_icon.svg) no-repeat;
+    background-size: 100%;
 }
-.login_btn{
-	width: 280px;
-	height: 48px;
-	margin: 32px auto;
-	background: #f35a4a;
-	border-radius: 3px;
-	line-height: 48px;
-	text-align: center;
-	font-size: 17px;
-	color: #FFF;
+
+.gameListDiv .navTY {
+    background: url(../images/svg/sports_icon.svg) no-repeat;
+    background-size: 100%;
 }
+
+.gameListDiv .navLB {
+    background: url(../images/svg/lb_icon.svg) no-repeat;
+    background-size: 100%;
+}
+
+.gameListDiv .navBE {
+    background: url(../images/svg/ebet_icon.svg) no-repeat;
+    background-size: 100%;
+}
+
+.gameListDiv .navPT {
+    background: url(../images/svg/pt.svg) no-repeat;
+    background-size: 100%;
+}
+
+.input {
+    width: 87%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.input_01 {
+    width: 94%;
+    line-height: 20px;
+    height: 20px;
+    padding: 14px 3% 14px 3%;
+    margin: 7px auto;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    font-family: "arial" "Microsoft YaHei";
+    color: #484848;
+}
+
+.login_btn {
+    width: 280px;
+    height: 48px;
+    margin: 32px auto;
+    background: #f35a4a;
+    border-radius: 3px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 17px;
+    color: #FFF;
+}
+
 .login_btn li {
-	line-height: 48px;
-	text-align: center;
-	font-size: 17px;
-	color: #FFF;
-}
-.lefttext {
-	font-size: 12px;
-	color: #959595;
-	text-align: center;
-}
-.lefttext a {
-	margin-left: 5px;
-	margin-right: 5px;
-	color: #f35a4a;
+    line-height: 48px;
+    text-align: center;
+    font-size: 17px;
+    color: #FFF;
 }
 
-.selectDiv{
-	width: 100%;
-	height: 0.3rem;
-	background-color: #323436;
-	position: fixed;
-	z-index: 99;
+.lefttext {
+    font-size: 12px;
+    color: #959595;
+    text-align: center;
 }
-.selectDiv .selectBtn{
-	width: 1rem;
-	height: 0.16rem;
-	color: #fff;
-	font-size: 0.13rem;
-	margin: 0 auto;
-	position: relative;
-	top: 0.07rem;
+
+.lefttext a {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #f35a4a;
 }
-.selectBtn i{
-	width: 0.15rem;
-	height: 0.15rem;
-	display: block;
-	background: url(../images/activity/select_arrow.svg) no-repeat;
-	background-size: 100%;
-	float: right;
+
+.selectDiv {
+    width: 100%;
+    height: 0.3rem;
+    background-color: #323436;
+    position: fixed;
+    z-index: 99;
 }
+
+.selectDiv .selectBtn {
+    width: 1rem;
+    height: 0.16rem;
+    color: #fff;
+    font-size: 0.13rem;
+    margin: 0 auto;
+    position: relative;
+    top: 0.07rem;
+}
+
+.selectBtn i {
+    width: 0.15rem;
+    height: 0.15rem;
+    display: block;
+    background: url(../images/activity/select_arrow.svg) no-repeat;
+    background-size: 100%;
+    float: right;
+}
+
 .ptgamebox {
-	width: 30%;
-	padding-bottom: 0%;
-	float: left;
-	margin-top: 10px;
-	margin-left: 2.5%;
+    width: 30%;
+    padding-bottom: 0%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 2.5%;
 }
+
 .ptgamebox p {
-	width: 100%;
-	padding-bottom: 0%;
-	display: block;
-	margin-bottom: 0px;
-	margin-top: 0px;
+    width: 100%;
+    padding-bottom: 0%;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
+
 img {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
+
 .ptgamebox span {
-	width: 100%;
-	display: block;
-	text-align: center;
-	line-height: 30px;
-	font-size: 12px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
 }
+
 table.act_menu {
-	width: 100%;
-	height: 200px;
-	border-collapse: collapse;
+    width: 100%;
+    height: 200px;
+    border-collapse: collapse;
 }
+
 table.act_menu td {
-	width: 25%;
-	height: 100px;
-	text-align: center;
-	font-size: 14px;
-	color: #959595;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #959595;
 }
+
 table.act_menu td li {
-	width: 35px;
-	height: 25px;
-	margin: 0 auto;
-	margin-bottom: 5px;
+    width: 35px;
+    height: 25px;
+    margin: 0 auto;
+    margin-bottom: 5px;
 }
+
 a {
-	text-decoration: none;
-	color: inherit;
-	font-family: "arial" "Microsoft YaHei";
+    text-decoration: none;
+    color: inherit;
+    font-family: "arial" "Microsoft YaHei";
 }
+
 .accdeposit_icon {
-	background: url(../images/svg/money_icon.svg) no-repeat;
+    background: url(../images/svg/money_icon.svg) no-repeat;
 }
+
 .accqukuan_icon {
-	background: url(../images/svg/qukuan.svg) no-repeat;
+    background: url(../images/svg/qukuan.svg) no-repeat;
 }
+
 .acctransfer_icon {
-	background: url(../images/svg/transfer_icon.svg) no-repeat;
+    background: url(../images/svg/transfer_icon.svg) no-repeat;
 }
+
 .accrecord_icon {
-	background: url(../images/svg/record_icon.svg) no-repeat;
+    background: url(../images/svg/record_icon.svg) no-repeat;
 }
+
 .accbank_icon {
-	background: url(../images/svg/bank_icon.svg) no-repeat;
+    background: url(../images/svg/bank_icon.svg) no-repeat;
 }
+
 .accshop_record_icon {
-	background: url(../images/svg/shop_record_icon.svg) no-repeat;
+    background: url(../images/svg/shop_record_icon.svg) no-repeat;
 }
+
 .actmain {
-	width: 100%;
-	height: 208px;
-	background: url(../images/account_bg.jpg);
-	background-size: 100% 100%;
-	padding-top: 32px;
+    width: 100%;
+    height: 208px;
+    background: url(../images/account_bg.jpg);
+    background-size: 100% 100%;
+    padding-top: 32px;
 }
+
 .actuesr_icon {
-	width: 80px;
-	height: 80px;
-	background: url(../images/svg/user_icon.svg) no-repeat;
-	background-size: 100%;
-	margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    background: url(../images/svg/user_icon.svg) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
 }
+
 .act_usname, .act_usname ul li {
-	width: 100%;
-	height: 32px;
-	line-height: 32px;
-	color: #FFF;
-	font-size: 17px;
-	text-align: center;
-	font-weight: bold;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    color: #FFF;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
 }
+
 .act_usname, .act_usname ul li {
-	width: 100%;
-	height: 32px;
-	line-height: 32px;
-	color: #FFF;
-	font-size: 17px;
-	text-align: center;
-	font-weight: bold;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    color: #FFF;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
 }
+
 .act_profile ul li {
-	height: 32px;
-	line-height: 32px;
-	color: #FFF;
-	font-size: 14px;
-	text-align: right;
-	padding-right: 20px;
+    height: 32px;
+    line-height: 32px;
+    color: #FFF;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 20px;
 }
+
 .act_profile a {
-	display: none;
+    display: none;
 }
+
 .act_balance {
-	width: 100%;
-	height: 49px;
-	padding-top: 16px;
-	border-top: 1px solid #ad6277;
+    width: 100%;
+    height: 49px;
+    padding-top: 16px;
+    border-top: 1px solid #ad6277;
 }
+
 .act_balance .act_number {
-	width: 35%;
-	height: 32px;
-	float: left;
-	border-right: 1px solid #ad6277;
+    width: 35%;
+    height: 32px;
+    float: left;
+    border-right: 1px solid #ad6277;
 }
+
 .act_balance .act_number ul li {
-	height: 16px;
-	color: #FFF;
-	font-size: 12px;
-	margin-left: 20px;
-	text-align: left;
+    height: 16px;
+    color: #FFF;
+    font-size: 12px;
+    margin-left: 20px;
+    text-align: left;
 }
+
 .act_balance .act_number {
-	width: 35%;
-	height: 32px;
-	float: left;
-	border-right: 1px solid #ad6277;
+    width: 35%;
+    height: 32px;
+    float: left;
+    border-right: 1px solid #ad6277;
 }
+
 .act_balance .act_otr {
-	width: 26%;
-	height: 32px;
-	float: left;
+    width: 26%;
+    height: 32px;
+    float: left;
 }
+
 .act_balance .act_otr ul li {
-	height: 16px;
-	color: #FFF;
-	font-size: 12px;
-	text-align: center;
+    height: 16px;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
 }
+
 .pimage {
-	width: 100%;
-	height: auto;
-	overflow: hidden;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
+
 .ptext_title {
-	width: 90%;
-	height: 22px;
-	padding-top: 10px;
-	font-size: 14px;
-	margin: 0 auto;
-	color: #313131;
-	border-bottom: 1px solid #dcdcdc;
-	text-align: left;
+    width: 90%;
+    height: 22px;
+    padding-top: 10px;
+    font-size: 14px;
+    margin: 0 auto;
+    color: #313131;
+    border-bottom: 1px solid #dcdcdc;
+    text-align: left;
 }
+
 .pmain_text {
-	width: 90%;
-	height: auto;
-	font-size: 14px;
-	padding-top: 1%;
-	margin: 0 auto;
-	text-align: left;
+    width: 90%;
+    height: auto;
+    font-size: 14px;
+    padding-top: 1%;
+    margin: 0 auto;
+    text-align: left;
 }
+
 .pmain_text li {
-	width: 100%;
-	line-height: 18px;
-	padding-top: 8px;
-	font-size: 14px;
-	color: #313131;
-	font-weight: bold;
-	text-align: left;
+    width: 100%;
+    line-height: 18px;
+    padding-top: 8px;
+    font-size: 14px;
+    color: #313131;
+    font-weight: bold;
+    text-align: left;
 }
+
 .pback {
-	width: 100%;
-	height: 0;
-	padding-bottom: 20%;
-	padding-top: 10%;
-	margin: 0 auto;
+    width: 100%;
+    height: 0;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    margin: 0 auto;
 }
+
 .pback .pback_btn {
-	width: 40%;
-	line-height: 40px;
-	background: #323436;
-	margin: 0 auto;
-	font-size: 17px;
-	border-radius: 3px;
-	text-align: center;
-	font-weight: bold;
-	color: #FFF;
+    width: 40%;
+    line-height: 40px;
+    background: #323436;
+    margin: 0 auto;
+    font-size: 17px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
 }

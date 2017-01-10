@@ -1,0 +1,56 @@
+header .h-left a{
+    background: url(../images/svg/back_icon.svg) no-repeat;
+    background-size: 100%;
+}
+header .h-center div{
+	background: none;
+	text-align: center;
+    line-height: 0.4rem;
+}
+header .h-right div {
+	background: none;
+}
+header .h-center{
+	color:#fff;
+	font-size: 0.17rem;
+}
+
+
+.pageContent {
+    background: #f2f2f2;
+}
+
+.modifyDiv{
+	background: #f2f2f2;
+}
+.modifyBox{
+	width:100%;
+	height: auto;
+	border-top: 1px solid #e4e4e5;
+    border-bottom: 1px solid #e4e4e5;
+    margin-bottom: 0.2rem;
+    background: #FFF;
+}
+.modifyBox p{
+	width: 90%;
+	height: 0.5rem;
+	margin: 0 auto;
+	border-bottom: 1px solid #e4e4e5;
+	line-height: 0.5rem;
+    text-align: right;
+    font-size: 0.15rem;
+    color: #535353;
+}
+.modifyBox p:last-child{border-bottom:none;}
+.modifyBox i{
+	width: 1.2rem;
+    height: 0.5rem;
+    position: absolute;
+    text-align: right;
+    left: 5%;
+    margin-right: 0px;
+    font-style: normal;
+}
+.modifyBox a{
+	color: #f35a4a;
+}

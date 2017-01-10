@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+		<title>充值</title>
+	</head>
+	<!--公共样式都写在  publicStyle.css 里面-->
+	<link rel="stylesheet" href="../css/publicStyle.css" />
+	
+	<link rel="stylesheet" href="../css/recharge.css" />
+	<script>
+		new function () {
+		    var _self = this;
+		    _self.width = 375;//设置默认最大宽度 iphone6
+		    _self.fontSize = 100;//默认字体大小
+		    _self.widthProportion = function () { var p = (document.body && document.body.clientWidth || document.getElementsByTagName("html")[0].offsetWidth) / _self.width; return p < 0.5 ? 0.5 : p; };
+		    _self.changePage = function () {
+		        document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + _self.widthProportion() * _self.fontSize + "px !important");
+		    }
+		    _self.changePage();
+		    window.addEventListener("resize", function () { _self.changePage(); }, false);
+		};
+	</script>
+	
+	<body>
+		<!--公共模块 --头部-->
+		<header>
+            <div class="h-left">
+            	<a></a>
+            </div>
+            <div class="h-center">
+            	<div>充值</div>
+            </div>
+            <div class="h-right">
+            	<div></div>
+            </div>
+       </header>
+       
+       <!--公共最外面的DIV-->
+       <div class="pageContent">
+       		<!--菜单-->
+	       	<div class="navTion">
+	       		<div class="navTable">
+	       			<p class="navBtn navTreu">快捷支付</p>
+	       			<p class="navBtn">在线支付</p>
+	       			<p class="navBtn">ATM/柜台</p>
+	       		</div>
+	       	</div>
+	       	<!--内容-->
+	       	<div class="paymentDiv" style="display: block;">
+       			<div class="paymentList">
+       				<div class="payLogo paykuaijie"></div>
+       				<div class="paymessage">
+       					<div>
+       						<p><a>快捷转账</a><i></i></p>
+				            <p>安全，便捷，极速到帐，单笔存款最低100元，上限5万元。</p>
+				        </div>
+       				</div>
+       			</div>
+       			
+       			<div class="paymentList">
+       				<div class="payLogo paygonhang"></div>
+       				<div class="paymessage">
+       					<div>
+       						<p><a>工行秒到</a><i></i></p>
+				            <p>方便，秒到，单笔存款最低100元，上限100万元，仅支持工商银行。</p>
+				        </div>
+       				</div>
+       			</div>
+       			
+       			<div class="paymentList">
+       				<div class="payLogo payzhifu"></div>
+       				<div class="paymessage">
+       					<div>
+       						<p><a>支付宝支付</a><i></i></p>
+				            <p>方便，快捷，单笔存款最低100元，上限3000元。</p>
+				        </div>
+       				</div>
+       			</div>
+       			
+       			<div class="paymentList">
+       				<div class="payLogo payweixin"></div>
+       				<div class="paymessage">
+       					<div>
+       						<p><a>微信支付</a><i></i></p>
+				            <p>方便，快捷，单笔存款最低100元，上限3000元。</p>
+				        </div>
+       				</div>
+       			</div>
+       		</div>
+	   		<div class="onlinePay" style="display: none;">
+	   			<div class="p">
+	   				<a >zhigang</a>
+	   			</div>
+	   			<div class="p">
+	   				<input placeholder="存款金额" type="text" />
+	   			</div>
+	   			<div class="p">
+	   				<a>选择银行</a>
+	   			</div>
+	   			
+	   			<div class="login_btn hy" id="login">
+			        <li>确        定</li>
+			    </div>
+	   		</div> 
+	   		<div class="atmPay" style="display: none;">
+	   			<span>正在维护中，请使用其他方式充值</span>
+	   		</div>
+	   		
+	   		
+       </div>
+	    
+	</body>
+	
+</html>

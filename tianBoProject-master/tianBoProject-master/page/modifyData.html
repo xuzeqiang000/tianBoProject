@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
+		<title>修改资料</title>
+	</head>
+	<!--公共样式都写在  publicStyle.css 里面-->
+	<link rel="stylesheet" href="../css/publicStyle.css" />
+	
+	<link rel="stylesheet" href="../css/modifyData.css" />
+	<script>
+		new function () {
+		    var _self = this;
+		    _self.width = 375;//设置默认最大宽度 iphone6
+		    _self.fontSize = 100;//默认字体大小
+		    _self.widthProportion = function () { var p = (document.body && document.body.clientWidth || document.getElementsByTagName("html")[0].offsetWidth) / _self.width; return p < 0.5 ? 0.5 : p; };
+		    _self.changePage = function () {
+		        document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + _self.widthProportion() * _self.fontSize + "px !important");
+		    }
+		    _self.changePage();
+		    window.addEventListener("resize", function () { _self.changePage(); }, false);
+		};
+	</script>
+	
+	<body>
+		<!--公共模块 --头部-->
+		<header>
+            <div class="h-left">
+            	<a></a>
+            </div>
+            <div class="h-center">
+            	<div>会员中心</div>
+            </div>
+            <div class="h-right">
+            	<div></div>
+            </div>
+       </header>
+       
+       <!--公共最外面的DIV-->
+       <div class="pageContent">
+	       	
+	       	<div class="modifyDiv">
+	       		<div class="modifyBox">
+	       			<p><i>用户名：</i> zhigang</p>
+	       			<p><i>密码：</i> <a >修改密码</a></p>
+	       		</div>
+	       		
+	       		<div class="modifyBox">
+	       			<p><i>真实姓名：</i> <a >未绑定，立即填写？</a></p>
+	       			<p><i>性别：</i> <a >未填写，立即填写？</a></p>
+	       			<p><i>出生年月日：</i> <a >未填写，立即填写？</a></p>
+	       		</div>
+	       		
+	       		<div class="modifyBox">
+	       			<p><i>手机号码：</i> <a >未绑定，立即填写？</a></p>
+	       			<p><i>邮箱：</i> <a >zhi*****@foxmail.com</a></p>
+	       			<p><i>收货地址：</i> <a >未填写，立即填写？</a></p>
+	       		</div>
+	       		
+	       		<div class="login_btn hy" >
+			        <li>退出登录</li>
+			    </div>
+	       	</div>
+	       	
+	       	
+	       	<!--公共模块 --低部-->
+		    <div class="bottom">
+	       		<div class="b_logo_div">
+	       			<div class="b_left"></div>
+	       			<div class="b_center"></div>
+	       			<div class="b_right"></div>
+	       		</div>
+	       		
+	       		<p>众鑫娱乐由菲律宾牌照委员会GICC颁发合法执照</p>
+	            <p>在进行注册前，请确保您已年满18周岁并遵循当地法律法规</p>
+	            <div class="pcorphone">
+	            	<span class="pc">电脑版</span>
+	            	<span class="ph">手机版</span>
+	            </div>
+	            <p class="jianzhi">© 2013-2022 www.zxcbet.com All Rights Reserved</p>
+	        </div>
+	    </div>
+	    
+	</body>
+</html>

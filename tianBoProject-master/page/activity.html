@@ -40,14 +40,14 @@
        <!--公共最外面的DIV-->
        <div class="pageContent">
 	       	<div class="selectDiv">
-		       	<div class="selectBtn">
+		       	<div onclick="href()" class="selectBtn">
 		       		全部活动
 		       		<i></i>
 		       	</div>	
 	        </div>
 	       	
 	       	<div class="activityBox">
-	       		<div class="activityList">
+	       		<div onclick="clickButton()" class="activityList">
 	       			<div class="titleBox">
 		       			<i></i><span>赏金猎人，万元彩金一发即中！</span>
 	       			</div>
@@ -62,7 +62,7 @@
 	       			</div>
 	       		</div>
 	       		
-	       		<div class="activityList">
+	       		<div onclick="clickButton()" class="activityList">
 	       			<div class="titleBox">
 		       			<i></i><span>抽奖吧兄弟！</span>
 	       			</div>
@@ -77,7 +77,7 @@
 	       			</div>
 	       		</div>
 	       		
-	       		<div class="activityList">
+	       		<div onclick="clickButton()" class="activityList">
 	       			<div class="titleBox">
 		       			<i></i><span>生日彩金</span>
 	       			</div>
@@ -92,7 +92,7 @@
 	       			</div>
 	       		</div>
 	       		
-	       		<div class="activityList">
+	       		<div onclick="clickButton()" class="activityList">
 	       			<div class="titleBox">
 		       			<i></i><span>EA、AG、BBIN、eBET真人娱乐平台日结返水0.8%</span>
 	       			</div>
@@ -107,7 +107,7 @@
 	       			</div>
 	       		</div>
 	       		
-	       		<div class="activityList">
+	       		<div onclick="clickButton()" class="activityList">
 	       			<div class="titleBox">
 		       			<i></i><span>LB快乐彩平台日结返水1%</span>
 	       			</div>
@@ -122,7 +122,7 @@
 	       			</div>
 	       		</div>
 	       		
-	       		<div class="activityList">
+	       		<div onclick="clickButton()" class="activityList">
 	       			<div class="titleBox">
 		       			<i></i><span>KG彩票平台累积奖金1.5%</span>
 	       			</div>
@@ -137,7 +137,7 @@
 	       			</div>
 	       		</div>
 	       		
-	       		<div class="activityList">
+	       		<div onclick="clickButton()" class="activityList">
 	       			<div class="titleBox">
 		       			<i></i><span>KG彩票平台累积奖金1.5%</span>
 	       			</div>
@@ -173,4 +173,13 @@
 	    </div>
 	    
 	</body>
+	
+	<script>
+		function clickButton(){
+			  location.href = "../test/activityDetail.html";
+		}
+		function href(){
+			  location.href = "selectClass.html";
+		}
+	</script>
 </html>

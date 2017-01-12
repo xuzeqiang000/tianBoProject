@@ -78,6 +78,7 @@ body{    background: #fff;}
 	width: 2.4rem;
     height: 0.9rem;
     float: right;
+        text-align: left;
 }
 
 .paymessage div{
@@ -115,7 +116,6 @@ body{    background: #fff;}
 }
 .onlinePay input{
 	position: relative;
-    top: -0.3rem;
     left: 0.1rem;
     font-size: 0.16rem;
     border: none;

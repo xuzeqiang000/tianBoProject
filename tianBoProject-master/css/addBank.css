@@ -1,0 +1,40 @@
+header .h-left a{
+    background: url(../images/svg/back_icon.svg) no-repeat;
+    background-size: 100%;
+}
+header .h-center div{
+	background: none;
+	text-align: center;
+    line-height: 0.4rem;
+}
+header .h-right div {
+	background: none;
+}
+header .h-center{
+	color:#fff;
+	font-size: 0.17rem;
+}
+
+
+
+.addbankMessage{
+	width: 86%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 0.2rem;
+}
+
+
+.addbankMessage .addbankmessageBox{
+	width: 94%;
+    line-height: 0.2rem;
+    height: 0.2rem;
+    padding: 0.14rem 3% 0.14rem 3%;
+    margin: 0.1rem auto;
+    font-size: 0.16rem;
+    border-style: none;
+    border: 1px solid #CCC;
+    font-family: "arial" "Microsoft YaHei";
+    color: #484848;
+    text-align: left;
+}

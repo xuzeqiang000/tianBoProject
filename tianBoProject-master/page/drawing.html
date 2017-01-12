@@ -27,7 +27,7 @@
 		<!--公共模块 --头部-->
 		<header>
             <div class="h-left">
-            	<a></a>
+            	<a href="../test/fundManager.html"></a>
             </div>
             <div class="h-center">
             	<div>提款</div>
@@ -39,7 +39,7 @@
        
        <!--公共最外面的DIV-->
        <div class="pageContent">
-	       	<div class="addCard">
+	       	<div onclick="href()" class="addCard">
 	       		<em></em>
 	       		<span>添加提款银行卡</span>
 	       		<i></i>
@@ -57,4 +57,9 @@
 	    </div>
 	    
 	</body>
+	<script>
+		function href(){
+			  location.href = "addBank.html";
+		}
+	</script>
 </html>

@@ -41,10 +41,106 @@ li {
     color: #ffffff;
 }
 
+.text-color-eee {
+    color: #eee;
+}
+
 .mt30 {
     margin-top: 30px !important;
 }
 
+.text-center{
+    text-align: center;
+}
+
+/*模糊效果*/
+.filterStyle{
+    -ms-filter: blur(10px);
+    filter:blur(10px);
+    -webkit-filter:blur(10px);
+    -o-filter:blur(10px);
+}
+/*右侧弹窗*/
+.menu_left, .menu_right {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+}
+.menu_blank {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.menu_main {
+    width: 80%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.9;
+    box-shadow: 0 0 10px #000;
+    float: left;
+}
+
+.menu_header {
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    line-height: 65px;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.menu_right ul li, .menu_left ul li {
+    width: 100%;
+    line-height: 45px;
+    float: left;
+    color: #9e9e9e;
+    font-size: 12px;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.menu_home_icon_02 {
+    background: url(../images/svg/menu_home_icon.svg) no-repeat;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+
+.menuhover {
+    font-size: 14px;
+    color: #fff;
+}
+
+.menu_right ul li, .menu_left ul li {
+    width: 100%;
+    line-height: 45px;
+    float: left;
+    color: #9e9e9e;
+    font-size: 12px;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.menu_service_icon_02 {
+    background: url(../images/svg/menu_service_icon.svg) no-repeat;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+
+.menu_promotions_icon_02 {
+    background: url(../images/svg/menu_gift_icon.svg) no-repeat;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
 
 body {
     margin: 0;
@@ -213,6 +309,7 @@ header .h-center div {
     color: #fff;
     padding-left: 0.1rem;
     float: left;
+    text-align: left;
 }
 
 .alertHeider .alert_Hright {
@@ -230,6 +327,7 @@ header .h-center div {
 .alertContent {
     background-color: #f0f1f1;
     width: 100%;
+    height: 100%;
     position: relative;
     top: 0.48rem;
 }
@@ -336,90 +434,6 @@ header .h-center div {
     border-radius: 30%;
     animation: fade 1s linear infinite;
     -webkit-animation: fade 1s linear infinite;
-}
-
-.spload div.bar1 {
-    transform: rotate(0deg) translate(0, -142%);
-    -webkit-transform: rotate(0deg) translate(0, -142%);
-    animation-delay: 0s;
-    -webkit-animation-delay: 0s;
-}
-
-.spload div.bar2 {
-    transform: rotate(30deg) translate(0, -142%);
-    -webkit-transform: rotate(30deg) translate(0, -142%);
-    -webkit-animation-delay: -0.9167s;
-    animation-delay: -0.9167s;
-}
-
-.spload div.bar3 {
-    transform: rotate(60deg) translate(0, -142%);
-    -webkit-transform: rotate(60deg) translate(0, -142%);
-    -webkit-animation-delay: -0.833s;
-    animation-delay: -0.833s;
-}
-
-.spload div.bar4 {
-    transform: rotate(90deg) translate(0, -142%);
-    -webkit-transform: rotate(90deg) translate(0, -142%);
-    -webkit-animation-delay: -0.75s;
-    animation-delay: -0.75s;
-}
-
-.spload div.bar5 {
-    transform: rotate(120deg) translate(0, -142%);
-    -webkit-transform: rotate(120deg) translate(0, -142%);
-    -webkit-animation-delay: -0.667s;
-    animation-delay: -0.667s;
-}
-
-.spload div.bar6 {
-    transform: rotate(150deg) translate(0, -142%);
-    -webkit-transform: rotate(150deg) translate(0, -142%);
-    -webkit-animation-delay: -0.5833s;
-    animation-delay: -0.5833s;
-}
-
-.spload div.bar7 {
-    transform: rotate(180deg) translate(0, -142%);
-    -webkit-transform: rotate(180deg) translate(0, -142%);
-    -webkit-animation-delay: -0.5s;
-    animation-delay: -0.5s;
-}
-
-.spload div.bar8 {
-    transform: rotate(210deg) translate(0, -142%);
-    -webkit-transform: rotate(210deg) translate(0, -142%);
-    -webkit-animation-delay: -0.41667s;
-    animation-delay: -0.41667s;
-}
-
-.spload div.bar9 {
-    transform: rotate(240deg) translate(0, -142%);
-    -webkit-transform: rotate(240deg) translate(0, -142%);
-    -webkit-animation-delay: -0.333s;
-    animation-delay: -0.333s;
-}
-
-.spload div.bar10 {
-    transform: rotate(270deg) translate(0, -142%);
-    -webkit-transform: rotate(270deg) translate(0, -142%);
-    -webkit-animation-delay: -0.25s;
-    animation-delay: -0.25s;
-}
-
-.spload div.bar11 {
-    transform: rotate(300deg) translate(0, -142%);
-    -webkit-transform: rotate(300deg) translate(0, -142%);
-    -webkit-animation-delay: -0.1667s;
-    animation-delay: -0.1667s;
-}
-
-.spload div.bar12 {
-    transform: rotate(330deg) translate(0, -142%);
-    -webkit-transform: rotate(330deg) translate(0, -142%);
-    -webkit-animation-delay: -0.0833s;
-    animation-delay: -0.0833s;
 }
 
 .base {

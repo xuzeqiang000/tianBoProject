@@ -3,12 +3,12 @@
 	<head>
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
-		<title>商城记录</title>
+		<title>添加提交银行卡</title>
 	</head>
 	<!--公共样式都写在  publicStyle.css 里面-->
 	<link rel="stylesheet" href="../css/publicStyle.css" />
 	
-	<link rel="stylesheet" href="../css/shoppingMall.css" />
+	<link rel="stylesheet" href="../css/addBank.css" />
 	<script>
 		new function () {
 		    var _self = this;
@@ -27,10 +27,10 @@
 		<!--公共模块 --头部-->
 		<header>
             <div class="h-left">
-            	<a href="../test/fundManager.html"></a>
+            	<a href="drawing.html"></a>
             </div>
             <div class="h-center">
-            	<div>商城记录</div>
+            	<div>添加提款银行卡</div>
             </div>
             <div class="h-right">
             	<div></div>
@@ -39,18 +39,22 @@
        
        <!--公共最外面的DIV-->
        <div class="pageContent">
-       		<!--公共选项div-->
-	       	<div class="selectDiv">
-		       	<div class="selectBtn">
-		       		淘金记录
-		       		<i></i>
-		       	</div>	
-	        </div>
-	       	
-	       	<div class="shoppingContent">
-	       		<span>没有交易记录</span>
+	       	<div class="addbankMessage">
+	       		<div onclick="href()" class="addbankmessageBox">请选择银行卡</div>
+	       		<input class="addbankmessageBox" type="text" placeholder="持卡人姓名" />
+	       		<input class="addbankmessageBox" type="number" placeholder="银行卡号" />
+	       		<input class="addbankmessageBox" type="text" placeholder="开户网点" />
+	       		<input class="addbankmessageBox" type="text" placeholder="安保答案" />
 	       	</div>
+	       	<div class="login_btn hy" >
+		        <li>确定</li>
+		    </div>
 	    </div>
 	    
 	</body>
+	<script>
+		function href(){
+			  location.href = "selectBank.html";
+		}
+	</script>
 </html>

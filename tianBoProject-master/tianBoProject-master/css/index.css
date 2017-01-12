@@ -1,84 +1,99 @@
-.swiperDiv{
-	width: 100%;
-	height: 2.25rem;
+.swiperDiv {
+    width: 100%;
+    height: 2.25rem;
 }
-.swiperDiv img{
-	width: 100%;
-	height: 2.25rem;
+
+.swiperDiv img {
+    width: 100%;
+    height: 2.25rem;
 }
-.notice{
-	width: 100%;
-	height: 0.25rem;
-	background: #252932;
+
+.notice {
+    width: 100%;
+    height: 0.25rem;
+    background: #252932;
 }
-.notice .noticeLogo{
-	width: 0.4rem;
-	height: 0.25rem;
-	background: #f35a4a;
+
+.notice .noticeLogo {
+    width: 0.4rem;
+    height: 0.25rem;
+    background: #f35a4a;
 }
-.notice .noticeLogo i{
-	display: block;
-	width: 0.4rem;
-	height: 0.25rem;
-	background: url(../images/svg/notice_icon.svg)no-repeat;
-	background-size: 50%;
-	background-position: 50% 50%;
+
+.notice .noticeLogo i {
+    display: block;
+    width: 0.4rem;
+    height: 0.25rem;
+    background: url(../images/svg/notice_icon.svg) no-repeat;
+    background-size: 50%;
+    background-position: 50% 50%;
 }
-.notiveText{
-	font-size: 0.12rem;
+
+.notiveText {
+    font-size: 0.12rem;
     color: #fff;
     width: 3rem;
     position: relative;
     top: -0.31rem;
     left: 0.5rem;
 }
-.navDiv{
-	width: 100%;
-	height: 0.42rem;
-	display: table;
-	font-size: 0.12rem;
-	color: #898989;
+
+.navDiv {
+    width: 100%;
+    height: 0.42rem;
+    display: table;
+    font-size: 0.12rem;
+    color: #898989;
 }
-.navDiv .navList{
-	display: table-cell;
-	text-align: center;
-	padding-top: 0.05rem;
+
+.navDiv .navList {
+    display: table-cell;
+    text-align: center;
+    padding-top: 0.05rem;
 }
-.navList a{
-	font-size: 0.12rem;
+
+.navList a {
+    font-size: 0.12rem;
     color: #898989;
     text-decoration: none;
 }
-.navList div{
-	width: 0.26rem;
+
+.navList div {
+    width: 0.26rem;
     height: 0.20rem;
     margin: 0 auto;
     font-size: 0.12rem;
 }
-.navList .zchy{
-	background: url(../images/svg/nav_register_icon.svg)no-repeat;
-}
-.navList .ljdl{
-	background: url(../images/svg/nav_user_icon.svg)no-repeat;
-}
-.navList .yhhd{
-	background: url(../images/svg/nav_gift_icon.svg)no-repeat;
-}
-.navList .zxkf{
-	background: url(../images/svg/nav_service_icon.svg)no-repeat;
+
+.navList .zchy {
+    background: url(../images/svg/nav_register_icon.svg) no-repeat;
 }
 
-.blank{
-	width: 100%;
+.navList .ljdl {
+    background: url(../images/svg/nav_user_icon.svg) no-repeat;
+}
+
+.navList .yhhd {
+    background: url(../images/svg/nav_gift_icon.svg) no-repeat;
+}
+
+.navList .zxkf {
+    background: url(../images/svg/nav_service_icon.svg) no-repeat;
+}
+
+.blank {
+    width: 100%;
     height: 0.15rem;
     background-color: #f2f2f2;
 }
-.gameBtnDiv{
-	width: 100%;
-	height: 0.9rem;
+
+.gameBtnDiv {
+    width: 100%;
+    height: 0.9rem;
 }
-.gameBtnDiv p{
-	display: block;
+
+.gameBtnDiv p {
+    display: block;
     width: 0.9rem;
     height: 0.4rem;
     margin: 0 auto;
@@ -88,42 +103,480 @@
     position: relative;
 }
 
-.gameListDiv{
-	width: 100%;
-	height: 4.25rem;
-	background: url(../images/line_01.png)no-repeat;
-	background-size: 100%;
+.gameListDiv {
+    width: 100%;
+    height: 4.25rem;
+    background: url(../images/line_01.png) no-repeat;
+    background-size: 100%;
 }
-.line1,.line2{
-	display:table;
-	font-size: 12px;
-	color: #898989;
-	width: 100%;
-	height: 1.2rem;
-	position: relative;
-	top: 0.4rem;
+
+.line1, .line2 {
+    display: table;
+    font-size: 12px;
+    color: #898989;
+    width: 100%;
+    height: 1.2rem;
+    position: relative;
+    top: 0.4rem;
 }
-.line1 .gameCell{
-	display: table-cell;
-	text-align: center;
+
+.line1 .gameCell {
+    display: table-cell;
+    text-align: center;
 }
-.line2 .gameCell{
-	display: table-cell;
-	text-align: center;
+
+.line2 .gameCell {
+    display: table-cell;
+    text-align: center;
 }
-.gameListDiv .gameCell div{
-	width: 0.76rem;
+
+.gameListDiv .gameCell div {
+    width: 0.76rem;
     height: 0.76rem;
     margin: 0 auto;
     border: 1px solid #dfdfdf;
     border-radius: 100rem;
     margin-top: 0.1rem;
-	margin-bottom: 0.1rem;
+    margin-bottom: 0.1rem;
 }
-.gameListDiv .navEA{background: url(../images/svg/ea_icon.svg) no-repeat;background-size: 100%;}
-.gameListDiv .navAG{background: url(../images/svg/ag_icon.svg) no-repeat;background-size: 100%;}
-.gameListDiv .navTY{background: url(../images/svg/sports_icon.svg) no-repeat;background-size: 100%;}
-.gameListDiv .navLB{background: url(../images/svg/lb_icon.svg) no-repeat;background-size: 100%;}
-.gameListDiv .navBE{background: url(../images/svg/ebet_icon.svg) no-repeat;background-size: 100%;}
-.gameListDiv .navPT{background: url(../images/svg/pt.svg) no-repeat;background-size: 100%;}
 
+.gameListDiv .navEA {
+    background: url(../images/svg/ea_icon.svg) no-repeat;
+    background-size: 100%;
+}
+
+.gameListDiv .navAG {
+    background: url(../images/svg/ag_icon.svg) no-repeat;
+    background-size: 100%;
+}
+
+.gameListDiv .navTY {
+    background: url(../images/svg/sports_icon.svg) no-repeat;
+    background-size: 100%;
+}
+
+.gameListDiv .navLB {
+    background: url(../images/svg/lb_icon.svg) no-repeat;
+    background-size: 100%;
+}
+
+.gameListDiv .navBE {
+    background: url(../images/svg/ebet_icon.svg) no-repeat;
+    background-size: 100%;
+}
+
+.gameListDiv .navPT {
+    background: url(../images/svg/pt.svg) no-repeat;
+    background-size: 100%;
+}
+
+.input {
+    width: 87%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.input_01 {
+    width: 94%;
+    line-height: 20px;
+    height: 20px;
+    padding: 14px 3% 14px 3%;
+    margin: 7px auto;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 2px;
+    border: 1px solid #CCC;
+    font-family: "arial" "Microsoft YaHei";
+    color: #484848;
+}
+
+.login_btn {
+    width: 280px;
+    height: 48px;
+    margin: 32px auto;
+    background: #f35a4a;
+    border-radius: 3px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 17px;
+    color: #FFF;
+}
+
+.login_btn li {
+    line-height: 48px;
+    text-align: center;
+    font-size: 17px;
+    color: #FFF;
+}
+
+.lefttext {
+    font-size: 12px;
+    color: #959595;
+    text-align: center;
+}
+
+.lefttext a {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #f35a4a;
+}
+
+.selectDiv {
+    width: 100%;
+    height: 0.3rem;
+    background-color: #323436;
+    position: fixed;
+    z-index: 99;
+}
+
+.selectDiv .selectBtn {
+    width: 1rem;
+    height: 0.16rem;
+    color: #fff;
+    font-size: 0.13rem;
+    margin: 0 auto;
+    position: relative;
+    top: 0.07rem;
+}
+
+.selectBtn i {
+    width: 0.15rem;
+    height: 0.15rem;
+    display: block;
+    background: url(../images/activity/select_arrow.svg) no-repeat;
+    background-size: 100%;
+    float: right;
+}
+
+.ptgamebox {
+    width: 30%;
+    padding-bottom: 0%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 2.5%;
+}
+
+.ptgamebox p {
+    width: 100%;
+    padding-bottom: 0%;
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.ptgamebox span {
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+table.act_menu {
+    width: 100%;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+table.act_menu td {
+    width: 25%;
+    height: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #959595;
+}
+
+table.act_menu td li {
+    width: 35px;
+    height: 25px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "arial" "Microsoft YaHei";
+}
+
+.accdeposit_icon {
+    background: url(../images/svg/money_icon.svg) no-repeat;
+}
+
+.accqukuan_icon {
+    background: url(../images/svg/qukuan.svg) no-repeat;
+}
+
+.acctransfer_icon {
+    background: url(../images/svg/transfer_icon.svg) no-repeat;
+}
+
+.accrecord_icon {
+    background: url(../images/svg/record_icon.svg) no-repeat;
+}
+
+.accbank_icon {
+    background: url(../images/svg/bank_icon.svg) no-repeat;
+}
+
+.accshop_record_icon {
+    background: url(../images/svg/shop_record_icon.svg) no-repeat;
+}
+
+.actmain {
+    width: 100%;
+    height: 208px;
+    background: url(../images/account_bg.jpg);
+    background-size: 100% 100%;
+    padding-top: 32px;
+}
+
+.actuesr_icon {
+    width: 80px;
+    height: 80px;
+    background: url(../images/svg/user_icon.svg) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.act_usname, .act_usname ul li {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    color: #FFF;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.act_usname, .act_usname ul li {
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    color: #FFF;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.act_profile ul li {
+    height: 32px;
+    line-height: 32px;
+    color: #FFF;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.act_profile a {
+    display: none;
+}
+
+.act_balance {
+    width: 100%;
+    height: 49px;
+    padding-top: 16px;
+    border-top: 1px solid #ad6277;
+}
+
+.act_balance .act_number {
+    width: 35%;
+    height: 32px;
+    float: left;
+    border-right: 1px solid #ad6277;
+}
+
+.act_balance .act_number ul li {
+    height: 16px;
+    color: #FFF;
+    font-size: 12px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.act_balance .act_number {
+    width: 35%;
+    height: 32px;
+    float: left;
+    border-right: 1px solid #ad6277;
+}
+
+.act_balance .act_otr {
+    width: 26%;
+    height: 32px;
+    float: left;
+}
+
+.act_balance .act_otr ul li {
+    height: 16px;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+}
+
+.pimage {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.ptext_title {
+    width: 90%;
+    height: 22px;
+    padding-top: 10px;
+    font-size: 14px;
+    margin: 0 auto;
+    color: #313131;
+    border-bottom: 1px solid #dcdcdc;
+    text-align: left;
+}
+
+.pmain_text {
+    width: 90%;
+    height: auto;
+    font-size: 14px;
+    padding-top: 1%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.pmain_text li {
+    width: 100%;
+    line-height: 18px;
+    padding-top: 8px;
+    font-size: 14px;
+    color: #313131;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pback {
+    width: 100%;
+    height: 0;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    margin: 0 auto;
+}
+
+.pback .pback_btn {
+    width: 40%;
+    line-height: 40px;
+    background: #323436;
+    margin: 0 auto;
+    font-size: 17px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.bg-f2f2f2{
+    background-color: #f2f2f2;
+}
+
+.inputtwo {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.mm_main{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+}
+.sex li {
+    line-height: 40px;
+    font-size: 12px;
+    color: #464646;
+    padding: 0 10px;
+    background-color: #ffffff;
+    margin-bottom: 1px;
+}
+.sex li i {
+    width: 6px;
+    height: 6px;
+    float: right;
+    margin-top: 14px;
+    border: 3px solid #d0d0d0;
+    border-radius: 50%;
+}
+
+.h-left div{
+    width: 0.3rem;
+    height:0.3rem;
+}
+.h-center span{
+    display: block;
+    text-align: center;
+}
+.bankmenu {
+    width: 278px;
+    height: 28px;
+    margin: 20px auto 15px auto;
+    border: 1px solid #f35a4a;
+    border-radius: 5px;
+}
+.bankmenu .btnshow {
+    color: #fff;
+    background: #f35a4a;
+}
+.bankmenu .emailbtn {
+    width: 139px;
+    line-height: 28px;
+    color: #666666;
+    text-align: center;
+    float: left;
+    border-radius: 3px 0px 0px 3px;
+}
+.bankmenu .tkbtn {
+    width: 139px;
+    line-height: 28px;
+    color: #666666;
+    text-align: center;
+    float: right;
+    border-radius: 0px 3px 3px 0px;
+}
+.addbankcard {
+    width: 276px;
+    height: 106px;
+    margin: 0 auto 15px auto;
+    border-radius: 5px;
+    border: 2px dashed #666;
+}
+.addbankcard li {
+    width: 40px;
+    height: 40px;
+    margin: 30px auto;
+    background: url(../images/svg/jia.svg);
+}
+.addbankcard li a {
+    display: none;
+}
+.accarrow {
+    width: 100%;
+    height: 53px;
+    padding-top: 5px;
+}
+.accarrow li {
+    width: 38px;
+    height: 48px;
+    margin: auto;
+    background: url(../images/arrow.gif) no-repeat center center;
+    background-size: 100%;
+}
+.vcode {
+    width: 50px;
+    height: 30px;
+    float: right;
+    margin-top: -47px;
+    position: absolute;
+    display: inline-block;
+    left: 290px;
+}

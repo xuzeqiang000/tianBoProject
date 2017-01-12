@@ -178,11 +178,11 @@
 
 .input_01 {
     width: 94%;
-    line-height: 20px;
-    height: 20px;
-    padding: 14px 3% 14px 3%;
-    margin: 7px auto;
-    font-size: 16px;
+    line-height: 0.2rem;
+    height: 0.2rem;
+    padding: 0.14rem 3% 0.14rem 3%;
+    margin: 0.07rem  auto;
+    font-size: 0.16rem;
     border-style: none;
     border-radius: 2px;
     border: 1px solid #CCC;
@@ -191,33 +191,33 @@
 }
 
 .login_btn {
-    width: 280px;
-    height: 48px;
-    margin: 32px auto;
+    width:2.8rem;
+    height: 0.48rem;
+    margin: 0.32rem auto;
     background: #f35a4a;
     border-radius: 3px;
-    line-height: 48px;
+    line-height: 0.48rem;
     text-align: center;
-    font-size: 17px;
+    font-size: 0.17rem;
     color: #FFF;
 }
 
 .login_btn li {
-    line-height: 48px;
+    line-height: 0.48rem;
     text-align: center;
-    font-size: 17px;
+    font-size: 0.17rem;
     color: #FFF;
 }
 
 .lefttext {
-    font-size: 12px;
+    font-size: 0.12rem;
     color: #959595;
     text-align: center;
 }
 
 .lefttext a {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
     color: #f35a4a;
 }
 
@@ -273,29 +273,29 @@ img {
     width: 100%;
     display: block;
     text-align: center;
-    line-height: 30px;
-    font-size: 12px;
+    line-height: 0.3rem;
+    font-size: 0.12rem;
 }
 
 table.act_menu {
     width: 100%;
-    height: 200px;
+    height: 2rem;
     border-collapse: collapse;
 }
 
 table.act_menu td {
     width: 25%;
-    height: 100px;
+    height: 1rem;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.14rem;
     color: #959595;
 }
 
 table.act_menu td li {
-    width: 35px;
-    height: 25px;
+    width: 0.35rem;
+    height: 0.25rem;
     margin: 0 auto;
-    margin-bottom: 5px;
+    margin-bottom: 0.05rem;
 }
 
 a {
@@ -330,15 +330,15 @@ a {
 
 .actmain {
     width: 100%;
-    height: 208px;
+    height: 2.08rem;
     background: url(../images/account_bg.jpg);
     background-size: 100% 100%;
-    padding-top: 32px;
+    padding-top: 0.32rem;
 }
 
 .actuesr_icon {
-    width: 80px;
-    height: 80px;
+    width: 0.8rem;
+    height: 0.8rem;
     background: url(../images/svg/user_icon.svg) no-repeat;
     background-size: 100%;
     margin: 0 auto;
@@ -346,31 +346,31 @@ a {
 
 .act_usname, .act_usname ul li {
     width: 100%;
-    height: 32px;
-    line-height: 32px;
+    height: 0.32rem;
+    line-height: 0.32rem;
     color: #FFF;
-    font-size: 17px;
+    font-size: 0.17rem;
     text-align: center;
     font-weight: bold;
 }
 
 .act_usname, .act_usname ul li {
     width: 100%;
-    height: 32px;
-    line-height: 32px;
+    height: 0.32rem;
+    line-height: 0.32rem;
     color: #FFF;
-    font-size: 17px;
+    font-size: 0.17rem;
     text-align: center;
     font-weight: bold;
 }
 
 .act_profile ul li {
-    height: 32px;
-    line-height: 32px;
+    height: 0.32rem;
+    line-height: 0.32rem;
     color: #FFF;
-    font-size: 14px;
+    font-size: 0.14rem;
     text-align: right;
-    padding-right: 20px;
+    padding-right: 0.2rem;
 }
 
 .act_profile a {
@@ -379,43 +379,43 @@ a {
 
 .act_balance {
     width: 100%;
-    height: 49px;
-    padding-top: 16px;
+    height: 0.49rem;
+    padding-top: 0.16rem;
     border-top: 1px solid #ad6277;
 }
 
 .act_balance .act_number {
     width: 35%;
-    height: 32px;
+    height: 0.32rem;
     float: left;
     border-right: 1px solid #ad6277;
 }
 
 .act_balance .act_number ul li {
-    height: 16px;
+    height: 0.16rem;
     color: #FFF;
-    font-size: 12px;
-    margin-left: 20px;
+    font-size: 0.12rem;
+    margin-left: 0.2rem;
     text-align: left;
 }
 
 .act_balance .act_number {
     width: 35%;
-    height: 32px;
+    height: 0.32rem;
     float: left;
     border-right: 1px solid #ad6277;
 }
 
 .act_balance .act_otr {
     width: 26%;
-    height: 32px;
+    height: 0.32rem;
     float: left;
 }
 
 .act_balance .act_otr ul li {
-    height: 16px;
+    height: 0.16rem;
     color: #FFF;
-    font-size: 12px;
+    font-size: 0.12rem;
     text-align: center;
 }
 
@@ -427,9 +427,9 @@ a {
 
 .ptext_title {
     width: 90%;
-    height: 22px;
-    padding-top: 10px;
-    font-size: 14px;
+    height: 0.22rem;
+    padding-top:0.1rem;
+    font-size: 0.14rem;
     margin: 0 auto;
     color: #313131;
     border-bottom: 1px solid #dcdcdc;
@@ -439,7 +439,7 @@ a {
 .pmain_text {
     width: 90%;
     height: auto;
-    font-size: 14px;
+    font-size: 0.14rem;
     padding-top: 1%;
     margin: 0 auto;
     text-align: left;
@@ -447,9 +447,9 @@ a {
 
 .pmain_text li {
     width: 100%;
-    line-height: 18px;
-    padding-top: 8px;
-    font-size: 14px;
+    line-height: 0.18rem;
+    padding-top: 0.08rem;
+    font-size:0.14rem;
     color: #313131;
     font-weight: bold;
     text-align: left;
@@ -465,10 +465,10 @@ a {
 
 .pback .pback_btn {
     width: 40%;
-    line-height: 40px;
+    line-height: 0.4rem;
     background: #323436;
     margin: 0 auto;
-    font-size: 17px;
+    font-size: 0.17rem;
     border-radius: 3px;
     text-align: center;
     font-weight: bold;
@@ -492,18 +492,18 @@ a {
     margin-top: 0.7rem;
 }
 .sex li {
-    line-height: 40px;
-    font-size: 12px;
+    line-height: 0.4rem;
+    font-size: 0.12rem;
     color: #464646;
-    padding: 0 10px;
+    padding: 0 0.1rem;
     background-color: #ffffff;
     margin-bottom: 1px;
 }
 .sex li i {
-    width: 6px;
-    height: 6px;
+    width: 0.06rem;
+    height: 0.06rem;
     float: right;
-    margin-top: 14px;
+    margin-top:0.14rem;
     border: 3px solid #d0d0d0;
     border-radius: 50%;
 }
@@ -515,11 +515,12 @@ a {
 .h-center span{
     display: block;
     text-align: center;
+    font-size: 0.17rem;
 }
 .bankmenu {
-    width: 278px;
-    height: 28px;
-    margin: 20px auto 15px auto;
+    width: 2.78rem;
+    height: 0.28rem;
+    margin:0.2rem auto 0.15rem auto;
     border: 1px solid #f35a4a;
     border-radius: 5px;
 }
@@ -528,32 +529,32 @@ a {
     background: #f35a4a;
 }
 .bankmenu .emailbtn {
-    width: 139px;
-    line-height: 28px;
+    width: 1.39rem;
+    line-height: 0.28rem;
     color: #666666;
     text-align: center;
     float: left;
     border-radius: 3px 0px 0px 3px;
 }
 .bankmenu .tkbtn {
-    width: 139px;
-    line-height: 28px;
+    width: 1.39rem;
+    line-height: 0.28rem;
     color: #666666;
     text-align: center;
     float: right;
     border-radius: 0px 3px 3px 0px;
 }
 .addbankcard {
-    width: 276px;
-    height: 106px;
-    margin: 0 auto 15px auto;
+    width: 2.76rem;
+    height: 1.06rem;
+    margin: 0 auto 0.15rem auto;
     border-radius: 5px;
     border: 2px dashed #666;
 }
 .addbankcard li {
-    width: 40px;
-    height: 40px;
-    margin: 30px auto;
+    width: 0.4rem;
+    height:0.4rem;
+    margin: 0.3rem auto;
     background: url(../images/svg/jia.svg);
 }
 .addbankcard li a {
@@ -561,21 +562,21 @@ a {
 }
 .accarrow {
     width: 100%;
-    height: 53px;
+    height: 0.53rem;
     padding-top: 5px;
 }
 .accarrow li {
-    width: 38px;
-    height: 48px;
+    width: 0.38rem;
+    height: 0.48rem;
     margin: auto;
     background: url(../images/arrow.gif) no-repeat center center;
     background-size: 100%;
 }
 .vcode {
-    width: 50px;
-    height: 30px;
+    width: 0.5rem;
+    height: 0.3rem;
     float: right;
-    margin-top: -47px;
+    margin-top: -0.47rem;
     position: absolute;
     display: inline-block;
     left: 2.8rem;

@@ -46,7 +46,7 @@ li {
 }
 
 .mt30 {
-    margin-top: 30px !important;
+    margin-top: 0.3rem !important;
 }
 
 .text-center{
@@ -84,62 +84,62 @@ li {
 
 .menu_header {
     width: 100%;
-    height: 65px;
+    height: 0.65rem;
     text-align: center;
     color: white;
-    font-size: 17px;
-    line-height: 65px;
+    font-size: 0.17rem;
+    line-height: 0.65rem;
     border-bottom: 1px solid #1a1a1a;
 }
 
 .menu_right ul li, .menu_left ul li {
     width: 100%;
-    line-height: 45px;
+    line-height: 0.45rem;
     float: left;
     color: #9e9e9e;
-    font-size: 12px;
+    font-size: 0.12rem;
     border-bottom: 1px solid #1a1a1a;
 }
 
 .menu_home_icon_02 {
     background: url(../images/svg/menu_home_icon.svg) no-repeat;
     background-size: 100%;
-    width: 40px;
-    height: 40px;
+    width: 0.4rem;
+    height: 0.4rem;
     float: left;
-    margin-left: 10px;
+    margin-left: 0.1rem;
 }
 
 .menuhover {
-    font-size: 14px;
+    font-size: 0.14rem;
     color: #fff;
 }
 
 .menu_right ul li, .menu_left ul li {
     width: 100%;
-    line-height: 45px;
+    line-height: 0.45rem;
     float: left;
     color: #9e9e9e;
-    font-size: 12px;
+    font-size: 0.12rem;
     border-bottom: 1px solid #1a1a1a;
 }
 
 .menu_service_icon_02 {
     background: url(../images/svg/menu_service_icon.svg) no-repeat;
     background-size: 100%;
-    width: 40px;
-    height: 40px;
+    width: 0.4rem;
+    height: 0.4rem;
     float: left;
-    margin-left: 10px;
+    margin-left: 0.1rem;
 }
 
 .menu_promotions_icon_02 {
     background: url(../images/svg/menu_gift_icon.svg) no-repeat;
     background-size: 100%;
-    width: 40px;
-    height: 40px;
+    width: 0.4rem;
+    height: 0.4rem;
     float: left;
-    margin-left: 10px;
+    margin-left: 0.1rem;
 }
 
 body {
@@ -334,21 +334,21 @@ header .h-center div {
 
 /*登录 确认 按钮样式*/
 .login_btn {
-    width: 280px;
-    height: 48px;
-    margin: 32px auto;
+    width: 2.8rem;
+    height: 0.48rem;
+    margin: 0.32rem auto;
     background: #f35a4a;
     border-radius: 3px;
-    line-height: 48px;
+    line-height: 0.48rem;
     text-align: center;
-    font-size: 17px;
+    font-size: 0.17rem;
     color: #FFF;
 }
 
 .login_btn li {
-    line-height: 48px;
+    line-height: 0.48rem;
     text-align: center;
-    font-size: 17px;
+    font-size: 0.17rem;
     color: #FFF;
 }
 

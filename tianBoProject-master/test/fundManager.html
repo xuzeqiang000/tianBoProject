@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
-    <title>首页</title>
+    <title>资金管理</title>
 </head>
 <!--公共样式都写在  publicStyle.css 里面-->
 <link rel="stylesheet" href="../css/publicStyle.css" />
@@ -26,7 +26,7 @@
 <div class="content bg-color-white">
     <header>
         <div class="h-left">
-            <div style="background: url(../images/svg/back_icon.svg) no-repeat;background-size: 100%;"></div>
+            <a href="../page/index.html"  style="background: url(../images/svg/back_icon.svg) no-repeat;background-size: 100%;"></a>
         </div>
         <div class="h-center">
             <span class="text-color-white">资金管理</span>
@@ -42,7 +42,7 @@
             </div>
             <div class="act_profile">
                 <ul>
-                    <li class="threepage" url="member.aspx"><a>会员中心</a>修改资料</li>
+                    <li class="threepage" url="member.aspx"><a style="display: block;" href="../page/modifyData.html">修改资料</a></li>
                 </ul>
             </div>
             <div class="act_balance">
@@ -59,7 +59,7 @@
                     </ul>
                 </div>
                 <div class="act_otr" id="baemenu">
-                    <ul>
+                    <ul onclick="href()">
                         <li>游戏余额</li>
                         <li>点击查询</li>
                     </ul>
@@ -72,16 +72,16 @@
             <tr>
                 <td id="czxx" class="threepage" url="/account/deposit.aspx">
                     <li class="accdeposit_icon"></li>
-                    <a>充值</a></td>
+                    <a href="../page/recharge.html" >充值</a></td>
                 <td id="tkxx" class="threepage" url="/account/withdrawal.aspx">
                     <li class="accqukuan_icon"></li>
-                    <a>提款</a></td>
+                    <a href="../page/drawing.html">提款</a></td>
                 <td id="zzxx" class="threepage" url="/account/transfer.aspx">
                     <li class="acctransfer_icon"></li>
-                    <a>转账</a></td>
+                    <a href="transfer.html">转账</a></td>
                 <td id="jlxx" class="threepage" url="/account/record.aspx">
                     <li class="accrecord_icon"></li>
-                    <a>交易记录</a></td>
+                    <a href="../page/transaction.html">交易记录</a></td>
             </tr>
             <tr>
                 <td id="yhkxx" class="threepage" url="/account/bank_card.aspx">
@@ -89,7 +89,7 @@
                     <a>银行卡</a></td>
                 <td id="shopxx" class="threepage" url="/account/shop_record.aspx">
                     <li class="accshop_record_icon"></li>
-                    <a>商城记录</a></td>
+                    <a href="../page/shoppingMall.html">商城记录</a></td>
                 <td></td>
                 <td></td>
             </tr>
@@ -115,14 +115,11 @@
             <p class="jianzhi">© 2013-2022 www.zxcbet.com All Rights Reserved</p>
         </div>
     </div>
-
-
-
-
-
-
-
 </div>
-
 </body>
+<script>
+	function href(){
+		  location.href = "../page/gameBalance.html";
+	}
+</script>
 </html>

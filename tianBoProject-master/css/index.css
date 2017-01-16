@@ -105,9 +105,10 @@
 
 .gameListDiv {
     width: 100%;
-    height: 4.25rem;
+    height: 3rem;
     background: url(../images/line_01.png) no-repeat;
     background-size: 100%;
+    background-position-y: 27%;
 }
 
 .line1, .line2 {
@@ -117,7 +118,6 @@
     width: 100%;
     height: 1.2rem;
     position: relative;
-    top: 0.4rem;
 }
 
 .line1 .gameCell {

@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="../css/publicStyle.css" />
 	
 	<link rel="stylesheet" href="../css/index.css" />
+	<link rel="stylesheet" href="../swiper/swiper.min.css" />
 	<script>
 		new function () {
 		    var _self = this;
@@ -39,9 +40,25 @@
        
        <!--公共最外面的DIV-->
        <div class="pageContent">
-	       	<div class="swiperDiv">
-	       		<img src="../images/banner_03.jpg">
-	       	</div>
+		   <div class="swiper-container swiper-container-horizontal" >
+			   <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+				   <div class="swiper-slide  swiper-slide-active"><img src="../images/fd43.jpg"></div>
+				   <div class="swiper-slide swiper-slide-next"><img src="../images/jingyan.jpg"></div>
+				   <div class="swiper-slide" ><img src="../images/meiri.jpg"></div>
+				   <div class="swiper-slide" ><img src="../images/qianbei.jpg"></div>
+				   <div class="swiper-slide" ><img src="../images/tongguan.jpg"></div>
+			   </div>
+			   <!-- Add Pagination -->
+			   <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+		   </div>
+
+
+
+
+
+	       	<!--<div class="swiperDiv">-->
+	       		<!--<img src="../images/banner_03.jpg">-->
+	       	<!--</div>-->
 	       	
 	       	<div class="notice">
 	       		<div class="noticeLogo">
@@ -69,16 +86,16 @@
 	       	<!--游戏列表-->
 	       	<div class="gameListDiv">
 	       		<div class="line1">
-	       			<a class="gameCell"><div class="navEA"></div><span>EA娱乐场</span></a>
-	       			<a class="gameCell"><div class="navAG"></div><span>AG娱乐场</span></a>
-	       			<a class="gameCell"><div class="navTY"></div><span>体育投注</span></a>
-	       			<a class="gameCell"><div class="navTY"></div><span>体育投注</span></a>
+	       			<a class="gameCell"><div class="navEA"></div><span>欧洲pt</span></a>
+	       			<a class="gameCell"><div class="navAG"></div><span>亚洲pt</span></a>
+	       			<a class="gameCell"><div class="navTY"></div><span>MG</span></a>
+	       			<a class="gameCell"><div class="navTY"></div><span>TTG </span></a>
 	       		</div>
 	       		<div class="line2">
-	       			<a class="gameCell"><div class="navLB"></div><span>LB快乐彩</span></a>
-	       			<a class="gameCell"><div class="navBE"></div><span>eBET</span></a>
-	       			<a href="../test/laohuji.html" class="gameCell"><div class="navPT"></div><span>PT老虎机</span></a>
-	       			<a href="../test/laohuji.html" class="gameCell"><div class="navPT"></div><span>PT老虎机</span></a>
+	       			<a class="gameCell"><div class="navLB"></div><span>PNG  </span></a>
+	       			<a class="gameCell"><div class="navBE"></div><span>QT</span></a>
+	       			<a href="../test/laohuji.html" class="gameCell"><div class="navPT"></div><span> 捕鱼</span></a>
+	       			<a href="../test/laohuji.html" class="gameCell"><div class="navPT"></div><span>真人</span></a>
 	       		</div>
 	       	</div>
 	       	
@@ -101,6 +118,19 @@
 	            <p class="jianzhi">© 2013-2022 www.zxcbet.com All Rights Reserved</p>
 	        </div>
 	    </div>
-	    
+		<script type="text/javascript" src="../js/zepto.min.js"></script>
+	    <script type="text/javascript" src="../swiper/swiper.min.js"></script>
+		<script type="text/javascript" >
+			$('.swiper-pagination').hide();
+			var swiper = new Swiper('.swiper-container',{
+				pagination:'.swiper-pagination',
+				autoplay:2000,
+				loop:true,
+				onSlideChangeEnd:function (swipe) {
+					console.dir(swipe.activeIndex);
+				}
+
+			});
+		</script>
 	</body>
 </html>

@@ -40,7 +40,7 @@
 
 .navDiv {
     width: 100%;
-    height: 0.42rem;
+    height: 0.8rem;
     display: table;
     font-size: 0.12rem;
     color: #898989;
@@ -49,7 +49,7 @@
 .navDiv .navList {
     display: table-cell;
     text-align: center;
-    padding-top: 0.05rem;
+    padding-top: 0.24rem;
 }
 
 .navList a {
@@ -131,12 +131,12 @@
 }
 
 .gameListDiv .gameCell div {
-    width: 0.76rem;
-    height: 0.76rem;
+    width: 0.6rem;
+    height: 0.6rem;
     margin: 0 auto;
     border: 1px solid #dfdfdf;
     border-radius: 100rem;
-    margin-top: 0.1rem;
+    margin-top: 0.2rem;
     margin-bottom: 0.1rem;
 }
 
@@ -188,6 +188,7 @@
     border: 1px solid #CCC;
     font-family: "arial" "Microsoft YaHei";
     color: #484848;
+    text-align: center;
 }
 
 .login_btn {

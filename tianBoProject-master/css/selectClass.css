@@ -19,7 +19,7 @@
     padding-left: 0.1rem;
     box-sizing: border-box;
 }
-.selectClassDiv i{
+.selectClassDiv a{
 	width: 0.06rem;
     height: 0.06rem;
     float: right;

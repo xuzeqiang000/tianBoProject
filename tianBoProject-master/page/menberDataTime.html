@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no,target-densitydpi = medium-dpi">
-    <title>首页</title>
+    <title>手机号码</title>
 </head>
 <!--公共样式都写在  publicStyle.css 里面-->
 <link rel="stylesheet" href="../css/publicStyle.css" />
@@ -23,33 +23,22 @@
     };
 </script>
 <body>
-<div class="content bg-color-white">
-    <header>
-        <div class="h-left">
-            <a href="fundManager.html" style="background: url(../images/svg/back_icon.svg) no-repeat;background-size: 100%;"></a>
-        </div>
-        <div class="h-center">
-            <span class="text-color-white">转账</span>
-        </div>
-    </header>
-    <div class="pageContent">
-        <div class="input " style="margin-top: 0.4rem">
-        	
-            <div id="zh1" class="input_01 xlmenu"><span style="float:left">从</span><a href="../page/selectBalance.html">请选择转出账户</a></div>
-            <div class="accarrow">
-                <li></li>
-            </div>
-            
-            <div id="zh2" class="input_01 xlmenu"><span  style="float:left">到</span><a href="../page/selectBalance.html">请选择转入账户</a></div>
-            <input id="tran-amt" name="" placeholder="输入转账金额" type="tel" class="input_01">
-        </div>
-
-        <div class="login_btn" id="accqd">确定</div>
-
-
+<div class="content">
+    <!--公共模块 --弹窗操作头部-->
+    <div class="alertHeider">
+        <div class="alert_Hleft">填写信息</div>
+        <a href="../page/modifyData.html" class="alert_Hright"></a>
     </div>
 
 
+    <div class="mm_main">
+        <ul class="name" style="display: block;">
+            <div class="inputtwo">
+                <input id="xm" name="" placeholder="输入手机号码" type="number" class="input_01 bg-f2f2f2" value="" />
+                <div class="login_btn" id="btn_Name"><a>确定</a></div>
+            </div>
+        </ul>
+    </div>
 
 
 

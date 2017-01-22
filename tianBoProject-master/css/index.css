@@ -40,7 +40,7 @@
 
 .navDiv {
     width: 100%;
-    height: 0.8rem;
+    height: 0.5rem;
     display: table;
     font-size: 0.12rem;
     color: #898989;
@@ -49,7 +49,7 @@
 .navDiv .navList {
     display: table-cell;
     text-align: center;
-    padding-top: 0.24rem;
+    padding-top: 0.09rem;
 }
 
 .navList a {
@@ -116,58 +116,86 @@
     font-size: 12px;
     color: #898989;
     width: 100%;
-    height: 1.2rem;
+    height: 0.9rem;
     position: relative;
 }
 
 .line1 .gameCell {
     display: table-cell;
     text-align: center;
+    width: 20%;
 }
 
 .line2 .gameCell {
     display: table-cell;
     text-align: center;
+    width: 20%;
 }
 
 .gameListDiv .gameCell div {
-    width: 0.6rem;
-    height: 0.6rem;
+    width: 0.5rem;
+    height: 0.5rem;
     margin: 0 auto;
     border: 1px solid #dfdfdf;
     border-radius: 100rem;
-    margin-top: 0.2rem;
+    margin-top: 0.1rem;
     margin-bottom: 0.1rem;
 }
 
-.gameListDiv .navEA {
-    background: url(../images/svg/ea_icon.svg) no-repeat;
+.gameListDiv .navPT {
+    background: url(../images/indeximg/64x64_pt.png) no-repeat;
     background-size: 100%;
-}
-
-.gameListDiv .navAG {
-    background: url(../images/svg/ag_icon.svg) no-repeat;
-    background-size: 100%;
-}
-
-.gameListDiv .navTY {
-    background: url(../images/svg/sports_icon.svg) no-repeat;
-    background-size: 100%;
-}
-
-.gameListDiv .navLB {
-    background: url(../images/svg/lb_icon.svg) no-repeat;
-    background-size: 100%;
-}
-
-.gameListDiv .navBE {
-    background: url(../images/svg/ebet_icon.svg) no-repeat;
-    background-size: 100%;
+        background-size: 70%;
+    background-position: 50% 50%;
 }
 
 .gameListDiv .navPT {
-    background: url(../images/svg/pt.svg) no-repeat;
+    background: url(../images/indeximg/64x64_pt.png) no-repeat;
     background-size: 100%;
+        background-size: 70%;
+    background-position: 50% 50%;
+}
+
+.gameListDiv .navMG {
+    background: url(../images/indeximg/64x64_mg.png) no-repeat;
+    background-size: 100%;
+        background-size: 70%;
+    background-position: 50% 50%;
+}
+
+.gameListDiv .navTTG {
+    background: url(../images/indeximg/64x64_tt.png) no-repeat;
+    background-size: 100%;
+        background-size: 70%;
+    background-position: 50% 50%;
+}
+
+.gameListDiv .navQT {
+    background: url(../images/indeximg/64x64_qt.png) no-repeat;
+    background-size: 100%;
+        background-size: 70%;
+    background-position: 50% 50%;
+}
+
+.gameListDiv .navGG {
+    background: url(../images/indeximg/64x64_gg.png) no-repeat;
+    background-size: 100%;
+        background-size: 70%;
+    background-position: 50% 50%;
+}
+
+.gameListDiv .navBBIN {
+    background: url(../images/indeximg/64x64_bbin.png) no-repeat;
+    background-size: 100%;
+        background-size: 70%;
+    background-position: 50% 50%;
+}
+
+.gameListDiv .navAG {
+    background: url(../images/indeximg/64x64_ag.png) no-repeat;
+    background-size: 100%;
+        background-size: 70%;
+    background-position: 50% 50%;
 }
 
 .input {
@@ -325,8 +353,22 @@ a {
     background: url(../images/svg/bank_icon.svg) no-repeat;
 }
 
-.accshop_record_icon {
-    background: url(../images/svg/shop_record_icon.svg) no-repeat;
+.luckybag_icon {
+    background: url(../images/indeximg/90x90_luckybag.png) no-repeat;
+        background-size: 73%;
+    background-position: 50%;
+}
+
+.rescue_icon {
+    background: url(../images/indeximg/90x90_rescue.png) no-repeat;
+        background-size: 73%;
+    background-position: 50%;
+}
+
+.luckyreward_icon {
+    background: url(../images/indeximg/90x90_luckyreward.png) no-repeat;
+        background-size: 73%;
+    background-position: 50%;
 }
 
 .actmain {
